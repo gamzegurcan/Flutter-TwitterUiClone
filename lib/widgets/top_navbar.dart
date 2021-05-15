@@ -9,6 +9,7 @@ class _TopNavbarState extends State<TopNavbar> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Colors.white,
       child: Padding(
         padding: const EdgeInsets.fromLTRB(8, 30, 8, 5),
         child: Row(
